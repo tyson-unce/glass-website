@@ -9,6 +9,7 @@ h1 {
   font-weight: 600;
   font-size: 3rem;
   opacity: 0.8;
+  padding: 5%;
 }
 h2,
 p {
@@ -46,6 +47,7 @@ main {
   backdrop-filter: blur(2rem);
   display: flex;
 }
+
 .circle1,
 .circle2 {
   background: white;
@@ -128,8 +130,8 @@ main {
   );
   border: none;
   width: 50%;
-  padding: 0.5rem;
-  border-radius: 2rem;
+  padding: 2%;
+  border-radius: 2%;
 }
 
 .games {
@@ -181,3 +183,14 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@media screen and (max-width: 800px) {
+  main{
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: left;
+    padding-bottom: 0;
+    size: 20%;
+  }
+
+}
+
