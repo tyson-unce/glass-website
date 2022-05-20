@@ -173,7 +173,7 @@ main {
 }
 .card-info {
   display: flex;
-  flex-direction: column;
+
   justify-content: space-between;
 }
 
@@ -186,7 +186,6 @@ main {
 
 @media screen and (max-width: 800px) {
   main{
-    font-family: 'Courier New', Courier, monospace;
     justify-content: left;
     padding-bottom: 0;
     size: 20%;
